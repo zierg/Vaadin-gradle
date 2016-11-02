@@ -1,0 +1,45 @@
+### Vagrant
+.vagrant/
+localDeploy/
+
+### Java
+*.class
+
+#Vertx
+.vertx
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### Gradle
+.gradle
+build/
+gradle-app.setting
+gradle-wrapper.jar
+.gradletasknamecache
+deploy/
+gradlew
+gradlew.bat
+gradle-wrapper.properties
+gradle/
+wrapper/
+
+### Ansible
+*.retry
+
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+.idea
+.idea_modules/
+
+# Fluentd
+*.log
+
